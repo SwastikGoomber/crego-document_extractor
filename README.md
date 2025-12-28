@@ -28,7 +28,7 @@ A production-grade system to extract structured financial data from CRIF Bureau 
 1. **Clone the repository:**
 
    ```bash
-   git clone <repo_url>
+   git clone https://github.com/SwastikGoomber/crego-document_extractor.git
    ```
 
 2. **Install dependencies:**
