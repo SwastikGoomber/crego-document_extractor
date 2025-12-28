@@ -425,8 +425,8 @@ app/
 │   ├── embeddings.py    # Vector generation and similarity search
 │   ├── llm.py           # Gemini/Ollama wrapper
 │   └── extractors/
-│       ├── gstr.py      # GSTR-3B Table 3.1 logic
-│       └── crif.py      # CRIF Account Summary + DPD logic
+│       ├── gstr.py      # GSTR-3B logic
+│       └── crif.py      # CRIF logic
 ├── models/
 │   └── schemas.py       # Pydantic response models
 └── main.py              # FastAPI entrypoint
