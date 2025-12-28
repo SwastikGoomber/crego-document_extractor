@@ -75,6 +75,9 @@ curl -X POST "http://localhost:8000/extract" \
   -F "parameter_file=@path/to/params.xlsx"
 ```
 
+Alias
+```curl -X POST "http://localhost:8000/generate-rule"```
+
 ### Run Evaluation Script (CLI)
 
 To test the extraction system without starting the server:
