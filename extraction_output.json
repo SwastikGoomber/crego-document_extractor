@@ -1,0 +1,117 @@
+{
+  "bureau_parameters": {
+    "bureau_credit_score": {
+      "value": 627,
+      "source": "Verification Table",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.643052446344587
+    },
+    "bureau_ntc_accepted": {
+      "value": false,
+      "source": "Account Remarks (0/36 accounts)",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.5638114866744776
+    },
+    "bureau_overdue_threshold": {
+      "value": null,
+      "source": "Not applicable (policy parameter)",
+      "confidence": 0.0,
+      "status": "not_applicable"
+    },
+    "bureau_dpd_30": {
+      "value": 0,
+      "source": "Computed from 36 accounts",
+      "confidence": 0.81,
+      "status": "extracted",
+      "similarity_score": 0.7250121338220314
+    },
+    "bureau_dpd_60": {
+      "value": 0,
+      "source": "Computed from 36 accounts",
+      "confidence": 0.81,
+      "status": "extracted",
+      "similarity_score": 0.7246913243013843
+    },
+    "bureau_dpd_90": {
+      "value": 0,
+      "source": "Computed from 36 accounts",
+      "confidence": 0.81,
+      "status": "extracted",
+      "similarity_score": 0.7359879865248542
+    },
+    "bureau_settlement_writeoff": {
+      "value": true,
+      "source": "Account Remarks (34/36 accounts)",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.6890899443297057
+    },
+    "bureau_no_live_pl_bl": {
+      "value": false,
+      "source": "Computed from 36 accounts",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.6944101239497416
+    },
+    "bureau_suit_filed": {
+      "value": true,
+      "source": "Account Remarks (2/36 accounts)",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.5764856223853682
+    },
+    "bureau_wilful_default": {
+      "value": false,
+      "source": "Account Remarks (0/36 accounts)",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.672230211355023
+    },
+    "bureau_written_off_debt_amount": {
+      "value": 0.0,
+      "source": "Account Summary Table",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.6543194005242013
+    },
+    "bureau_max_loans": {
+      "value": 54,
+      "source": "Account Summary Table",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.6942295936092312
+    },
+    "bureau_loan_amount_threshold": {
+      "value": null,
+      "source": "Not applicable (policy parameter)",
+      "confidence": 0.0,
+      "status": "not_applicable"
+    },
+    "bureau_credit_inquiries": {
+      "value": 0,
+      "source": "Inquiry Table",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.6990035202088806
+    },
+    "bureau_max_active_loans": {
+      "value": 25,
+      "source": "Account Summary Table",
+      "confidence": 0.63,
+      "status": "extracted",
+      "similarity_score": 0.6725869950138728
+    }
+  },
+  "gst_sales": [
+    {
+      "month": "January 2024",
+      "sales": 951381.0,
+      "source": "GSTR-3B Table 3.1 (Page 1)",
+      "confidence": 1.0,
+      "status": "extracted"
+    }
+  ],
+  "overall_confidence_score": 0.695
+}

@@ -1,0 +1,246 @@
+{
+  "test_metadata": {
+    "test_date": "2025-12-28 20:41:22",
+    "num_runs": 100,
+    "total_time": 78.56732821464539,
+    "avg_time_per_run": 0.7856732821464538
+  },
+  "consistency": {
+    "bureau_credit_score": {
+      "consistent": true,
+      "unique_values": [
+        627
+      ],
+      "value_counts": {
+        "627": 100
+      }
+    },
+    "bureau_ntc_accepted": {
+      "consistent": true,
+      "unique_values": [
+        false
+      ],
+      "value_counts": {
+        "false": 100
+      }
+    },
+    "bureau_overdue_threshold": {
+      "consistent": true,
+      "unique_values": [
+        null
+      ],
+      "value_counts": {
+        "null": 100
+      }
+    },
+    "bureau_dpd_30": {
+      "consistent": true,
+      "unique_values": [
+        0
+      ],
+      "value_counts": {
+        "0": 100
+      }
+    },
+    "bureau_dpd_60": {
+      "consistent": true,
+      "unique_values": [
+        0
+      ],
+      "value_counts": {
+        "0": 100
+      }
+    },
+    "bureau_dpd_90": {
+      "consistent": true,
+      "unique_values": [
+        0
+      ],
+      "value_counts": {
+        "0": 100
+      }
+    },
+    "bureau_settlement_writeoff": {
+      "consistent": true,
+      "unique_values": [
+        true
+      ],
+      "value_counts": {
+        "true": 100
+      }
+    },
+    "bureau_no_live_pl_bl": {
+      "consistent": true,
+      "unique_values": [
+        false
+      ],
+      "value_counts": {
+        "false": 100
+      }
+    },
+    "bureau_suit_filed": {
+      "consistent": true,
+      "unique_values": [
+        true
+      ],
+      "value_counts": {
+        "true": 100
+      }
+    },
+    "bureau_wilful_default": {
+      "consistent": true,
+      "unique_values": [
+        false
+      ],
+      "value_counts": {
+        "false": 100
+      }
+    },
+    "bureau_written_off_debt_amount": {
+      "consistent": true,
+      "unique_values": [
+        0.0
+      ],
+      "value_counts": {
+        "0.0": 100
+      }
+    },
+    "bureau_max_loans": {
+      "consistent": true,
+      "unique_values": [
+        54
+      ],
+      "value_counts": {
+        "54": 100
+      }
+    },
+    "bureau_loan_amount_threshold": {
+      "consistent": true,
+      "unique_values": [
+        null
+      ],
+      "value_counts": {
+        "null": 100
+      }
+    },
+    "bureau_credit_inquiries": {
+      "consistent": true,
+      "unique_values": [
+        0
+      ],
+      "value_counts": {
+        "0": 100
+      }
+    },
+    "bureau_max_active_loans": {
+      "consistent": true,
+      "unique_values": [
+        25
+      ],
+      "value_counts": {
+        "25": 100
+      }
+    },
+    "gst_sales": {
+      "consistent": true,
+      "unique_values": [
+        951381.0
+      ],
+      "value_counts": {
+        "951381.0": 100
+      }
+    }
+  },
+  "accuracy": {
+    "per_parameter": {
+      "bureau_credit_score": {
+        "expected": 627,
+        "actual": 627,
+        "correct": true
+      },
+      "bureau_ntc_accepted": {
+        "expected": false,
+        "actual": false,
+        "correct": true
+      },
+      "bureau_overdue_threshold": {
+        "expected": null,
+        "actual": null,
+        "correct": true
+      },
+      "bureau_dpd_30": {
+        "expected": 0,
+        "actual": 0,
+        "correct": true
+      },
+      "bureau_dpd_60": {
+        "expected": 0,
+        "actual": 0,
+        "correct": true
+      },
+      "bureau_dpd_90": {
+        "expected": 0,
+        "actual": 0,
+        "correct": true
+      },
+      "bureau_settlement_writeoff": {
+        "expected": true,
+        "actual": true,
+        "correct": true
+      },
+      "bureau_no_live_pl_bl": {
+        "expected": false,
+        "actual": false,
+        "correct": true
+      },
+      "bureau_suit_filed": {
+        "expected": true,
+        "actual": true,
+        "correct": true
+      },
+      "bureau_wilful_default": {
+        "expected": false,
+        "actual": false,
+        "correct": true
+      },
+      "bureau_written_off_debt_amount": {
+        "expected": 0.0,
+        "actual": 0.0,
+        "correct": true
+      },
+      "bureau_max_loans": {
+        "expected": 54,
+        "actual": 54,
+        "correct": true
+      },
+      "bureau_loan_amount_threshold": {
+        "expected": null,
+        "actual": null,
+        "correct": true
+      },
+      "bureau_credit_inquiries": {
+        "expected": 0,
+        "actual": 0,
+        "correct": true
+      },
+      "bureau_max_active_loans": {
+        "expected": 25,
+        "actual": 25,
+        "correct": true
+      },
+      "gst_sales": {
+        "expected": 951381.0,
+        "actual": 951381.0,
+        "correct": true
+      }
+    },
+    "overall_accuracy": 1.0,
+    "correct_count": 16,
+    "total_count": 16
+  },
+  "summary": {
+    "consistency_rate": 1.0,
+    "accuracy_rate": 1.0,
+    "all_tests_passed": true
+  }
+}

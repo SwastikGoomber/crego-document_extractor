@@ -1,0 +1,16 @@
+Parameter ID,Parameter Name,Description
+bureau_credit_score,CIBIL Score,Credit bureau score (300–900 range)
+bureau_ntc_accepted,NTC Accepted,Whether No-Track-Case (NTC) applicants are acceptable
+bureau_overdue_threshold,Overdue Threshold,Maximum allowable overdue amount
+bureau_dpd_30,30+ DPD (Configurable Period),Count of accounts with 30+ days past due in selected months
+bureau_dpd_60,60+ DPD (Configurable Period),Count of accounts with 60+ days past due in selected months
+bureau_dpd_90,90+ DPD (Configurable Period),Count of accounts with 90+ days past due in selected months
+bureau_settlement_writeoff,Settlement / Write-off,Presence of settlement or write-off in selected months
+bureau_no_live_pl_bl,No Live PL/BL,Check for no live Personal Loan or Business Loan in selected months
+bureau_suit_filed,Suit Filed,Indicates whether any suit filed status exists
+bureau_wilful_default,Wilful Default,Indicates wilful default status
+bureau_written_off_debt_amount,Written-off Debt Amount,Total written-off debt exposure
+bureau_max_loans,Max Loans,Maximum number of loans in selected months
+bureau_loan_amount_threshold,Loan Amount Threshold,Maximum cumulative loan amount exposure
+bureau_credit_inquiries,Credit Inquiries,Number of bureau credit inquiries in selected months
+bureau_max_active_loans,Max Active Loans,Maximum active loans in selected months

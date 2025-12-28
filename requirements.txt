@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+docling
+pandas
+openpyxl
+google-genai
+python-dotenv
+pydantic
+ollama
+torch
+
